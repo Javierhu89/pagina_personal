@@ -5,7 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 </head>
-<body>
-    
+<body bgcolor="F1DEAD">
+<article>
+    <section id="introduccion">
+        <h2 align="middle">¿Te apetece disfrutar de un rato juntos?<br><br><img src="/img/tiempo.jpg" alt="Tiempo" width="600" height="300"></h2>
+        <h2>Rellena este formulario y te haré un hueco en mi ocupada agenda:</h2>
+    </section>
+    <section id="formulario">
+    <form action="https://w3schools.com/action_page.php" method="GET" target="_blank">
+        <fieldset>
+            <legend><b>Sobre ti:</b></legend>
+            <label for="_nombre"><b>Nombre:</b></label>
+            <input type="text" id="_nombre" name="Nombre" placeholder="Introduce tu nombre" tabindex="1" autofocus>
+            <label for="_apellidos"><b>Apellidos:</b></label>
+            <input type="text" id="_apellidos" name="Apellidos" placeholder="Introduce tus apellidos" tabindex="2">
+            <label for="_telefono"><b>Teléfono:</b></label>
+            <input type="number" id="_telefono" name="Telefono" placeholder="Introduce tu teléfono" tabindex="3">
+            <label for="_email"><b>Email:</b></label>
+            <input type="email" id="_email" name="Email" placeholder="Introduce tu email" tabindex="4">
+        </fieldset> <br>
+        <fieldset>
+            <legend><b>Lugar, día y hora:</b></legend> <br>
+                <label for=""><b>¿A dónde te podrías acercar?</b></label><br><br>
+                <label for="_mercado"><b>Mercado de San Antón</b></label>
+                <input type="checkbox" id="_mercado" name="Localización" value="Mercado de San Antón">
+
+                <label for="_palacio"><b>Palacio del Hielo</b></label>
+                <input type="checkbox" id="_palacio" name="Localización" value="Palacio del Hielo">
+                <br><br>
+
+                <label for="_granvia"><b>Gran Vía</b></label>
+                <input type="checkbox" id="_granvia" name="Localización" value="Gran Vía">
+
+                <label for="_plenilunio"><b>Plenilunio</b></label>
+                <input type="checkbox" id="_plenilunio" name="Localización" value="Plenilunio">
+
+                <label for="_plazaespaña"><b>Plaza de España</b></label>
+                <input type="checkbox" id="_plazaespaña" name="Localización" value="Plaza de España">
+                <br><br><br>
+
+                <label for="_dia"><b>¿Qué día te viene mejor?</b></label>
+                <input type="date" id="_dia" name="Día">
+                <br><br>
+
+                <label for="_hora"><b>¿A qué hora te viene bien?</b></label>
+                <input type="time" id="_hora" name="Hora">
+        </fieldset> <br>
+        <fieldset>
+            <legend><b>¿Qué te apetece hacer?</b></legend>
+                <select name="Entretenimiento" id="_entretenimiento" multiple>
+                    <option value="_cervezas">Cervezas</option>
+                    <option value="_juegosdemesa">Juegos de mesa</option>
+                    <option value="_padel">Padel</option>
+                    <option value="_correr">Salir a correr</option>
+                    <option value="_programar">Programar juntos</option>                
+                </select> <br><br>
+                <label for="_otro"><b>¿Te apetece algo diferente?</b></label>
+                <input type="text" id="_otro" name="Otro" placeholder="Rellenar con otra opción">
+        </fieldset> <br>
+        <label for="_enviar"><b>Confirmar y enviar</b></label>
+        <input type="submit" id="_enviar">
+    </form>
+    </section>
+</article>
 </body>
 </html>
