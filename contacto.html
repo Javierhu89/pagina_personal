@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
-<body bgcolor="F1DEAD">
+<body>
+    <header>
+        <nav>
+            <a id="bienvenida" href="/index.html">Volver al la página de bienvenida</a>
+            <a href="/biografia.html">Biografía</a>
+            <a href="/trabajos.html">Trabajos</a>
+            <a href="">Contacto</a>
+        </nav>
+    </header>
 <article>
-    <section id="introduccion">
-        <h2 align="middle">¿Te apetece disfrutar de un rato juntos? <br><br><img src="/img/tiempo.jpg" alt="Tiempo" width="600" height="300"></h2>
-        <h2 align="middle">Rellena este formulario y te haré un hueco en mi ocupada agenda:</h2>
+    <section>
+        <h1>¿Nos vemos?</h1>
+        <h2>Rellena este formulario y te haré un hueco en mi ocupada agenda:</h2>
     </section>
     <section id="formulario">
     <form action="https://w3schools.com/action_page.php" method="GET" target="_blank">
@@ -26,6 +35,7 @@
         </fieldset> <br>
         <fieldset>
             <legend><b>Lugar, día y hora:</b></legend> <br>
+            <img id="tiempo" src="/img/tiempo.jpg" alt="Imagen de tiempo y actividades">
                 <label for=""><b>¿A dónde te podrías acercar?</b></label><br><br>
                 <label for="_mercado"><b>Mercado de San Antón</b></label>
                 <input type="checkbox" id="_mercado" name="Localización" value="Mercado de San Antón">

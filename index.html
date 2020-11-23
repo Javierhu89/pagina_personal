@@ -4,18 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Bienvenida</title>
-    <nav>
-        <a href="/biografia.html"></a>
-        <a href="/contacto.html"></a>
-        <a href="/trabajos.html"></a>
-    </nav>
+    <link rel="stylesheet" href="/style.css">
 </head>
-<body bgcolor="F1DEAD">
-<header id="cabecera">
-    <h1 align="middle">Bienvenido a la Página Personal de Javier Pahissa García</h1>
-    <h2 align="middle">(Pahi para los amigos)</h2>
+<body>
+<header>
+    <nav>
+        <a href="/biografia.html">Biografía</a>
+        <a href="/trabajos.html">Trabajos</a>
+        <a href="/contacto.html">Contacto</a>
+    </nav>
 </header>
 <article>
+    <h1>Bienvenido a la Página Personal de Javier Pahissa García</h1>
+    <h2>(Pahi para los amigos)</h2>
+<section id="general">
+        <ul>
+            <li>
+                <h3>¿Qué vas a descubrir en esta Web?</h3>
+                <p>Voy a tratar de describirme para que puedas conocer algo de mí.</p>
+            </li>
+            <li>
+                <h3>¿Cuál es el propósito?</h3>
+                <p>El propósito principal es usar cada uno de los lenguajes y herramientas aprendidos.</p>
+            </li>
+            <li>
+                <h3>Estado actual:</h3>
+                <table border="1">
+                    <tr>
+                        <th>HTML</th>
+                        <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                        <th>CSS</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>JavaScript</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Proximamente..</th>
+                        <td></td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>¿Tienes algún comentario o consejo sobre la Web?</h3>
+                <form action="https://w3schools.com/action_page.php" method="GET">
+                <textarea name="comentarios" id="_comentarios" cols="50" rows="5" placeholder="Introduce los comentarios que quieras."></textarea>
+                <input type="submit">
+                </form>
+            </li>
+        </ul>
+    </section>
     <section id="bibliografia">
         <h2>¡¿Pahissa?!</h2>
         <h3> 
@@ -29,46 +70,6 @@
         <h3>¿Eres curioso y quieres ir viendo mi evolución? --> <a href="/trabajos.html" target="_blank">Puedes acceder aquí para cotillear</a></h3>
     </section>
 <br>
-<section id="general">
-    <ul>
-        <li>
-            <h3>¿Qué vas a descubrir en esta Web?</h3>
-            <p>Voy a tratar de describirme para que puedas conocer algo de mí.</p>
-        </li>
-        <li>
-            <h3>¿Cuál es el propósito?</h3>
-            <p>El propósito principal es usar cada uno de los lenguajes y herramientas aprendidos.</p>
-        </li>
-        <li>
-            <h3>Estado actual:</h3>
-            <table border="1">
-                <tr>
-                    <th>HTML</th>
-                    <td>&#10004;</td>
-                </tr>
-                <tr>
-                    <th>CSS</th>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>JavaScript</th>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Proximamente..</th>
-                    <td></td>
-                </tr>
-            </table>
-        </li>
-        <li>
-            <h3>¿Tienes algún comentario o consejo sobre la Web?</h3>
-            <form action="https://w3schools.com/action_page.php" method="GET">
-            <textarea name="comentarios" id="_comentarios" cols="50" rows="5" placeholder="Introduce los comentarios que quieras."></textarea>
-            <input type="submit">
-            </form>
-        </li>
-    </ul>
-</section>
 </article>
 </body>
 </html>

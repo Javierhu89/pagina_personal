@@ -1,0 +1,51 @@
+body{
+    font-family: Calibri, Arial, sans-serif;
+    background-color: rgb(219, 219, 235);
+}
+header {
+    background-color: #7091ad;
+    padding: 10px;
+    border: #020405 solid;
+    border-width: 2px;
+}
+header nav a {
+    text-decoration: none; 
+    color: white;
+    border-style: double;
+    border-color:black;
+    margin: 5px;
+    padding: 5px;
+   }
+/* Ver cómo hacer que un a se vaya a la derecha y el resto se queden a la izquieda
+header nav a #bienvenida{
+    text-align: right;
+}*/
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 1px;
+    margin: 3px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+}
+#escudo {
+    float: left;
+    border: grey solid 2px;
+}
+#found {
+    display: block;
+    float: center;
+    margin: auto;
+    width: 750px;
+    height: auto;
+}
+#tiempo {
+    float: left;
+    width: 250px;
+    height: auto;
+    border: black solid 2px;
+    margin-right: 15px;
+}
