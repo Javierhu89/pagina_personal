@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Bienvenida</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Bienvenida</title>
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
 <header>
     <nav>
-        <a href="/biografia.html">Biografía</a>
-        <a href="/trabajos.html">Trabajos</a>
-        <a href="/contacto.html">Contacto</a>
+        <ul>
+            <li><a href="/biografia.html">&#x270d; <b>Bibliografía</b></a></li>
+            <li><a href="/trabajos.html">&#x1f4bb; <b>Trabajos</b></a></li>
+            <li><a href="/contacto.html">&#x260e; <b>Contacto</b></a></li>
+            <li><a id="bienvenida" href="/index.html">&#x1f3e0; <b>Home</b></a></li>
+        </ul>
     </nav>
 </header>
 <article>
@@ -36,7 +39,7 @@
                     </tr>
                     <tr>
                         <th>CSS</th>
-                        <td></td>
+                        <td>Almost&#10004;</td>
                     </tr>
                     <tr>
                         <th>JavaScript</th>
@@ -51,7 +54,7 @@
             <li>
                 <h3>¿Tienes algún comentario o consejo sobre la Web?</h3>
                 <form action="https://w3schools.com/action_page.php" method="GET">
-                <textarea name="comentarios" id="_comentarios" cols="50" rows="5" placeholder="Introduce los comentarios que quieras."></textarea>
+                <textarea name="comentarios" id="_comentarios" cols="35" rows="5" placeholder="Introduce los comentarios que quieras."></textarea>
                 <input type="submit">
                 </form>
             </li>
@@ -69,6 +72,10 @@
     <section id="trabajos">
         <h3>¿Eres curioso y quieres ir viendo mi evolución? --> <a href="/trabajos.html" target="_blank">Puedes acceder aquí para cotillear</a></h3>
     </section>
+
+    <footer>
+        <p>&#xa9 Javier Pahissa García</p>
+    </footer>
 <br>
 </article>
 </body>
