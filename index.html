@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenida</title>
+    <link rel="stylesheet" href="/CSS/normalize.css">
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
@@ -14,7 +15,6 @@
             <li><a href="/biografia.html">&#x270d; <b>Biografía</b></a></li>
             <li><a href="/trabajos.html">&#x1f4bb; <b>Trabajos</b></a></li>
             <li><a href="/contacto.html">&#x260e; <b>Contacto</b></a></li>
-            
         </ul>
     </nav>
 </header>
@@ -22,48 +22,49 @@
     <article>
         <h1>Página Personal de Javier Pahissa García</h1>
         <h2>(Pahi para los amigos)</h2>
+        <div class="home">
             <section class="proposito">
                 <h3>¿Cuál es el propósito de la Web?</h3>
                 <p>El propósito principal es poner en práctica cada uno de los lenguajes y herramientas aprendidos durante el Boot Camp de FullStack. Para ir viendo la evolución iré subiendo los trabajos que vayamos desarrollando de manera cronológica. También me gustaría que me conocierais un poco y para ello os muestro un pizca de mi experiencia previa antes de todo esto.</p>
             </section>
             <section class="estado">
                 <h3>Estado Developer:</h3>
-                <div class="developer">
                     <table border="1">
                         <tr>
                             <th>HTML</th>
-                            <td>&#10004;</td>
-                            <td>Semana del <i>16 de Noviembre</i></td>
-                        </tr>
-                        <tr>
                             <th>CSS</th>
-                            <td>&#10004;</td>
-                            <td>Semana del <i>23 de Noviembre</i></td>
-                        </tr>
-                        <tr>
                             <th>Creación Página Personal</th>
-                            <td><b>60%</b></td>
-                            <td>Finalización día <i>30 de Noviembre</i></td>
-                        </tr>
-                        <tr>
                             <th>JavaScript</th>
-                            <td></td>
+                            <th>Be a Master Developer</th>
+                            
+                            
                         </tr>
                         <tr>
-                            <th>Be a Master Developer</th>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td><b>70%</b></td>
+                            <td><b>0%</b></td>
+                            <td><b>0%</b></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Semana del <i>16 de Noviembre</i></td>
+                            <td>Semana del <i>23 de Noviembre</i></td>
+                            <td>Finalización día <i>30 de Noviembre</i></td>
+                            <td></td>
                             <td></td>
                         </tr>
                     </table>
-                    <img src="/img/developer.jpg" alt="Desarrollador">
-                </div>
-            </section>
-            <section class="comentarios">
-                <h3>¿Tienes algún comentario o consejo sobre la Web</h3>
-                <form action="https://w3schools.com/action_page.php" method="GET">
-                <textarea name="comentarios" id="_comentarios" cols="30" rows="2" placeholder="Introduce comentarios."></textarea>
-                <input type="submit" value="Comentar">
-                </form>
-            </section>
+                </section>
+                <section class="comentarios">
+                    <h3>¿Tienes algún comentario o consejo sobre la Web?</h3>
+                    <form action="https://w3schools.com/action_page.php" method="GET">
+                        <textarea name="comentarios" id="_comentarios" placeholder="Introduce los comentarios/consejos que quieras."></textarea>
+                        <input type="submit" value="Comentar">
+                    </form>
+                </section>
+            </div>
+            <img class="developer" src="/img/developer.jpg" alt="Desarrollador">
     </article>
 </main>
     <footer>

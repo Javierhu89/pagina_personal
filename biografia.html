@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografía</title>
+    <link rel="stylesheet" href="/CSS/normalize.css">
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
@@ -17,57 +18,56 @@
         </ul>
     </nav>
 </header>
-    <h1>Biografía</h1> <br>
+    <h1>Biografía</h1>
     <article>
-<section id="bibliografia">
-    <fieldset>
-        <legend><b>Algo sobre mí:</b></legend>
-        <p>Onubense, Andaluz, Madrileño y Español. Nacido en el 89 en Huelva, disfrutando de sus playas, de su gente y de su gastronomía desde entonces. Estudié Ingeniería Industrial en la ciudad mas bonita de Andalucía, Sevilla, recomendables todos sus rincones y su excelente cerveza. Tras esto decidí mudarme a Madrid en busca de trabajo. He trabajado en varios sectores diferentes, desde planificar la ruta diaria de parte de la flota de trenes de <i>Renfe</i>, pasando por controlar la evolución de la construcción de una planta industrial en Arabia Saudí dentro de <i>Técnicas Reunidas</i>, también llevando a cabo el análisis y la planificación de los envasados de una gran empresa como es <i>Mahou-San Miguel</i> hasta finalmente trabajar en una empresa del grupo <i>El Corte Inglés</i> para la fabricación de mobiliario.</p>
-    </fieldset>
-</section>
-<section id="apellido">
-    <fieldset>
-        <legend><b>Pahissa:</b></legend><br>
-        <img id="escudo" src="/img/escudo_pahissa.png" alt="Escudo Pahissa" width="100" height="100">
-        <p>&nbsp;Este apellido es de origen <b>Catalán</b> y parte de mi familia por parte de padre todavía reside allí. Mi abuelo era militar y lo destinaron en Huelva. Allí se enamoró de mi abuela y tuvieron 2 hijos y una hija.</p>
-    </fieldset>
-</section>
-<br>
-<section id="Aficiones">
-<fieldset>
-    <legend><b>Aficiones:</b></legend><br>
-    <table border="1">
-        <tr>
-            <th>Deportes más practicados</th>
-            <th>Juegos de mesa*</th>
-            <th>Series favoritas</th>
-            <th>Computer Games</th>
-            <th>Películas Favoritas</th>
-        </tr>
-        <tr>
-            <td>Fútbol, Padel y Tenis</td>
-            <td>Catán, Trivial y Ajedrez</td>
-            <td>Got, The Boys y The Walking Dead</td>
-            <td>Lol, Counter Strike y Fall guys</td>
-            <td>Gladiator, Train to Busan y Casino</td>
-        </tr>
-    </table>
-    <p>*Desarrollado un juego de mesa con unos amigos para su posterior comercialización.</p>
-</fieldset>
-</section>
-<section id="extra"></section>
-<p><b>Puedes descargarte mi Cv si estás interesado en conocer en mayor profundidad mi experiencia profesional: <a href="img/Javier Pahissa García - CV.pdf" download="Javier Pahissa García - CV">Javier Pahissa García</a>.</b></p>
-<p><b>También puedes acceder a mi LinkedIn através del siguiente <a href="https://www.linkedin.com/in/javier-pahissa-garcía">enlace</a>.</p>
-</section>
-</article>
-<footer>
-    <nav>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/javier-pahissa-garcía" target="_blank"><img src="/img/linkedin.png" alt="LinkedIn"></a></li>
-            <li><a href="https://www.instagram.com/jpahig/" target="_blank"><img src="/img/instagram.png" alt="LinkedIn"></a></li>
-        </ul>
-    </nav>
-    <p>&#xa9; Javier Pahissa García</p>
-</footer>  
+        <section class="bibliografia">
+            <h3>Algo sobre mí:</h3>
+            <p>Onubense, Andaluz, Madrileño y Español. Nacido en el 89 en Huelva, disfrutando de sus playas, de su gente y de su gastronomía desde entonces. Estudié Ingeniería Industrial en la ciudad mas bonita de Andalucía, Sevilla, recomendables todos sus rincones y su excelente cerveza. Tras esto decidí mudarme a Madrid en busca de trabajo. He trabajado en varios sectores diferentes, pero todos relaciones con la planificación y la logística. Me apasionan los juegos de mesa y los deportes. Tengo muchos compañeros informáticos que no paran de hablar de cosas raras y me gustaría poder integrarme en sus conversaciones.</p>
+        </section>
+        <section class="apellido">
+            <h3><b>Pahissa:</b></h3>
+            <div class="escudo">
+                <img src="/img/escudo_pahissa.png" alt="Escudo Pahissa" width="100" height="100">
+                <p>Este apellido es de origen <b>Catalán</b> y parte de mi familia por parte de padre todavía reside allí. Mi abuelo era militar y lo destinaron en Huelva. Allí se enamoró de mi abuela y tuvieron 2 hijos y una hija.</p>
+            </div>
+        </section>
+        <section class="experiencia">
+            <h3><b>Experiencia Profesional:</b></h3>
+            <div class="profesional">
+                <div class="renfe">
+                    <h4><b>Renfe</b></h4>
+                    <img src="/img/renfe.png" alt="Renfe Logo">
+                    <p>Planificando las rutas diarias de parte de la flota de trenes de Renfe.</p>
+                </div>
+                <div class="tecnicasreunidas">
+                    <h4>Técnicas Reunidas</h4>
+                    <img src="/img/tecnicasreunidas.png" alt="Logo Técnicas Reunidas">
+                    <p>Planificar y controlar la construcción de una planta industrial en Arabia Saudí (Ras Tanura).</p>
+                </div>
+                <div class="mahou">
+                    <h4>Mahou-San Miguel</h4>
+                    <img src="/img/mahou.jpg" alt="Logo Mahou-San Miguel">
+                    <p>Análisis de la demanda, planificación de la producción y realización de órdenes de aprovisionamiento de los envasados.</p>
+                </div>
+                <div class="elcorteingles">
+                    <h4>El Corte Inglés</h4>
+                    <img src="/img/elcorteingles.png" alt="Logo El Corte Inglés">
+                    <p>Planificar y controlar la producción de mobiliario.</p>
+                </div>
+            </div>
+        </section>
+        <section class="extra">
+            <p>Puedes descargarte mi Cv si estás interesado en conocer en mayor profundidad mi experiencia profesional: <a href="img/Javier Pahissa García - CV.pdf" download="Javier Pahissa García - CV">Javier Pahissa García</a>.</p>
+        </section>
+    </article>
+    <footer>
+        <nav>
+            <ul>
+                <li><a class="linkedin" href="https://www.linkedin.com/in/javier-pahissa-garcía" target="_blank"><img src="/img/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a class="instagram" href="https://www.instagram.com/jpahig/" target="_blank"><img src="/img/instagram.png" alt="LinkedIn"></a></li>
+            </ul>
+        </nav>
+        <p>&#xa9; Javier Pahissa García</p>
+    </footer>  
 </body>
 </html>
