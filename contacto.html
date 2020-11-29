@@ -11,7 +11,7 @@
     <header>
         <nav>
             <ul>
-                <li><a id="bienvenida" href="/index.html">&#x1f3e0; <b>Home</b></a></li>
+                <li><a  href="/index.html">&#x1f3e0; <b>Home</b></a></li>
                 <li><a href="/biografia.html">&#x270d; <b>Biografía</b></a></li>
                 <li><a href="/trabajos.html">&#x1f4bb; <b>Trabajos</b></a></li>
                 <li><a href="">&#x260e; <b>Contacto</b></a></li>
@@ -23,62 +23,74 @@
         <h1>¿Nos vemos?</h1>
         <h2>Rellena este formulario y te haré un hueco en mi ocupada agenda</h2>
     </section>
-    <section id="formulario">
-    <form action="https://w3schools.com/action_page.php" method="GET" target="_blank">
-        <fieldset>
-            <legend><b>Sobre ti:</b></legend>
-            <label for="_nombre"><b>Nombre:</b></label>
-            <input type="text" id="_nombre" name="Nombre" placeholder="Introduce tu nombre" tabindex="1" autofocus>
-            <label for="_apellidos"><b>Apellidos:</b></label>
-            <input type="text" id="_apellidos" name="Apellidos" placeholder="Introduce tus apellidos" tabindex="2">
-            <label for="_telefono"><b>Teléfono:</b></label>
-            <input type="tel" id="_telefono" name="Telefono" placeholder="Introduce tu teléfono" tabindex="3" maxlength="9" minlength="9">
-            <label for="_email"><b>Email:</b></label>
-            <input type="email" id="_email" name="Email" placeholder="Introduce tu email" tabindex="4">
-        </fieldset> <br>
-        <fieldset>
-            <legend><b>Lugar, día y hora:</b></legend> <br>
-            <img id="tiempo" src="/img/tiempo.jpg" alt="Imagen de tiempo y actividades">
-                <label for=""><b>¿A dónde te podrías acercar?</b></label><br><br>
-                <label for="_mercado"><b>Mercado de San Antón</b></label>
-                <input type="checkbox" id="_mercado" name="Localización" value="Mercado de San Antón">
+    <section class="formulario">
+        <img id="contacto1"src="/img/contacto1.png" alt="Foto Personal primera">
+        <img id="contacto2"src="/img/contacto2.png" alt="Foto personal segunda">
+            <form action="https://w3schools.com/action_page.php" method="GET" target="_blank">
+                <label class="titulos" for=""><b>Sobre ti:</b></label><br>
+                    <div class="total">
+                    <div>
+                    <label class="options" for="_nombre"><b>Nombre:</b></label>
+                    <input type="text" id="_nombre" name="Nombre" placeholder="Introduce tu nombre" tabindex="1" autofocus>
+                    </div>
+                    <div>
+                    <label class="options" for="_apellidos"><b>Apellidos:</b></label>
+                    <input type="text" id="_apellidos" name="Apellidos" placeholder="Introduce tus apellidos" tabindex="2">
+                    </div>
+                    <div>
+                    <label class="options" for="_telefono"><b>Teléfono:</b></label>
+                    <input type="tel" id="_telefono" name="Telefono" placeholder="Introduce tu teléfono" tabindex="3" maxlength="9" minlength="9">
+                    </div>
+                    <div>
+                    <label class="options" for="_email"><b>Email:</b></label>
+                    <input type="email" id="_email" name="Email" placeholder="Introduce tu email" tabindex="4"> <br>
+                </div>
+                </div>
+                <label class="titulos" for=""><b>Lugar, día y hora:</b></label><br><br>
 
-                <label for="_palacio"><b>Palacio del Hielo</b></label>
-                <input type="checkbox" id="_palacio" name="Localización" value="Palacio del Hielo">
+                    <label class="subtitulo" for=""><b>¿A dónde te podrías acercar?</b></label><br>
+
+                    <label class="options" for="_mercado"><b>Mercado de San Antón</b></label>
+                    <input type="checkbox" id="_mercado" name="Localización" value="Mercado de San Antón" tabindex="5">
+
+                    <label class="options" for="_palacio"><b>Palacio del Hielo</b></label>
+                    <input type="checkbox" id="_palacio" name="Localización" value="Palacio del Hielo" tabindex="6">
+            
+
+                    <label class="options" for="_granvia"><b>Gran Vía</b></label>
+                    <input type="checkbox" id="_granvia" name="Localización" value="Gran Vía" tabindex="7">
+
+                    <label class="options" for="_plenilunio"><b>Plenilunio</b></label>
+                    <input type="checkbox" id="_plenilunio" name="Localización" value="Plenilunio" tabindex="8">
+
+                    <label class="options" for="_plazaespaña"><b>Plaza de España</b></label>
+                    <input type="checkbox" id="_plazaespaña" name="Localización" value="Plaza de España" tabindex="9"> <br>
+            
+                    <label class="subtitulo" for="_dia"><b>¿Qué día te viene mejor?</b></label>
+                    <input type="date" id="_dia" name="Día" tabindex="10"><br>
+          
+
+                    <label class="subtitulo" for="_hora"><b>¿A qué hora te viene bien?</b></label>
+                    <input type="time" id="_hora" name="Hora" tabindex="11"> <br>
+
+                <label class="titulos" for=""><b>¿Qué te apetece hacer?</b></label><br><br>
+
+                    <select name="Entretenimiento" id="_entretenimiento" multiple tabindex="12">
+
+                        <option class="options" value="_cervezas">Cervezas</option>
+                        <option class="options" value="_juegosdemesa">Juegos de mesa</option>
+                        <option class="options" value="_padel">Padel</option>
+                        <option class="options" value="_correr">Salir a correr</option>
+                        <option class="options" value="_programar">Programar juntos</option>
+
+                    </select>
                 <br><br>
+                <label class="titulos" for="_otro"><b>¿Te apetece algo diferente?</b></label><br>
+                <input type="text" id="_otro" name="Otro" placeholder="Rellenar con otra opción" tabindex="13"> <br>
 
-                <label for="_granvia"><b>Gran Vía</b></label>
-                <input type="checkbox" id="_granvia" name="Localización" value="Gran Vía">
+                <input type="submit" id="_enviar" tabindex="14">
 
-                <label for="_plenilunio"><b>Plenilunio</b></label>
-                <input type="checkbox" id="_plenilunio" name="Localización" value="Plenilunio">
-
-                <label for="_plazaespaña"><b>Plaza de España</b></label>
-                <input type="checkbox" id="_plazaespaña" name="Localización" value="Plaza de España">
-                <br><br><br>
-
-                <label for="_dia"><b>¿Qué día te viene mejor?</b></label>
-                <input type="date" id="_dia" name="Día">
-                <br><br>
-
-                <label for="_hora"><b>¿A qué hora te viene bien?</b></label>
-                <input type="time" id="_hora" name="Hora">
-        </fieldset> <br>
-        <fieldset>
-            <legend><b>¿Qué te apetece hacer?</b></legend>
-                <select name="Entretenimiento" id="_entretenimiento" multiple>
-                    <option value="_cervezas">Cervezas</option>
-                    <option value="_juegosdemesa">Juegos de mesa</option>
-                    <option value="_padel">Padel</option>
-                    <option value="_correr">Salir a correr</option>
-                    <option value="_programar">Programar juntos</option>                
-                </select> <br><br>
-                <label for="_otro"><b>¿Te apetece algo diferente?</b></label>
-                <input type="text" id="_otro" name="Otro" placeholder="Rellenar con otra opción">
-        </fieldset> <br>
-        <label for="_enviar"><b>Confirmar y enviar</b></label>
-        <input type="submit" id="_enviar">
-    </form>
+            </form>
     </section>
 </article>
 <footer>
