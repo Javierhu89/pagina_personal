@@ -95,8 +95,15 @@ div.home img.fotoprincipal {
 .proposito p, .bibliografia p, .apellido p, .experiencia p {
     font-size: 1.35rem;
     margin-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.escudo p{
+    margin-top:3px;
+}
+.escudo{
+    display: flex;
+    flex-wrap: wrap;
 }
 .apellido p{
     width: 100%;
@@ -111,9 +118,6 @@ div.home img.fotoprincipal {
     padding-right: 25px;
     list-style:none;
 }
-.escudo p{
-    margin-top:3px;
-}
 main div.home{
     display: flex;
     justify-content: center;
@@ -124,11 +128,7 @@ main div.home{
     border: 2px solid black;
     border-radius: 40px;
     margin: 10px;
-    padding: 1.5rem;
-}
-.escudo{
-    display: flex;
-    flex-wrap: wrap;
+    padding: 0.5rem;
 }
 .escudo img{
     width: 100px;
@@ -149,7 +149,8 @@ section div.profesional {
     flex-wrap: wrap;
 }
 div.renfe, div.tecnicasreunidas, div.mahou, div.elcorteingles{
-    width: 350px;
+    width: 339px;
+    padding-right: 30px;
 }
 div.renfe h4, div.tecnicasreunidas h4, div.mahou h4, div.elcorteingles h4{
     text-align: center;
@@ -290,6 +291,8 @@ footer p{
     margin-right: 1.1rem;
     margin-top:-0.8rem;
 }
+/*Pequeña Media Query*/
+
 @media screen and (min-width: 481px) {
 
     .proposito, .estado, div.home img.fotoprincipal {
@@ -315,3 +318,6 @@ footer p{
         margin-left: 21%;
         margin-right: 21%;
     }
+    .estado ul{
+        text-align: unset;
+}
